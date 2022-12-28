@@ -1,0 +1,1 @@
+import{_ as t,c as a,o as e}from"./app.66fd4855.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"mq/kafka/tiaoyou.md","lastUpdated":null}'),o={name:"mq/kafka/tiaoyou.md"};function r(s,n,c,i,p,d){return e(),a("div")}const f=t(o,[["render",r]]);export{m as __pageData,f as default};

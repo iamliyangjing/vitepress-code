@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t}from"./app.66fd4855.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"mq/kafka/originalcode.md","lastUpdated":null}'),o={name:"mq/kafka/originalcode.md"};function r(n,c,s,i,d,l){return t(),a("div")}const m=e(o,[["render",r]]);export{_ as __pageData,m as default};
