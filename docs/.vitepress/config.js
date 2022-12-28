@@ -64,9 +64,10 @@ export default defineConfig({
             },
             {text:'前端',
                 items: [
-                    { text: 'html', link: 'frontend/html/' },
-                    { text: 'css', link: 'frontend/css/' },
-                    { text: 'js', link: 'frontend/js/' },
+                    { text: 'HTML', link: 'frontend/HTML/' },
+                    { text: 'CSS', link: 'frontend/CSS/' },
+                    { text: 'JS', link: 'frontend/JS/' },
+                    { text: 'VUE', link: 'frontend/VUE/' }
                 ]
             },
             {text:'408',
