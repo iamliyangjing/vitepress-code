@@ -46,7 +46,6 @@ export default defineConfig({
                     { text: 'Redis', link: 'database/redis' },
                 ]
             },
-            {text:'面向对象',link:'/design'},
             {text:'中间件',
                 items: [
                     { text: 'rabbitmq', link: 'mq/rabbitmq/' },
@@ -77,7 +76,14 @@ export default defineConfig({
                     { text: '数据结构与算法', link: '408/alg/' },
                 ]
             },
-            {text:'读书笔记',link:'/book'},
+            {text:'其他内容',
+                items: [
+                    { text: 'Go语言', link: 'otherContent/go/index' },
+                    {text: '读书笔记',link: 'otherContent/note'},
+                    {text: 'RPC',link: 'otherContent/rpc/index'},
+                    {text: '分布式',link: 'otherContent/distributed/index'}
+                ]
+            },
             {text:'关于',link:'/about/' },
         ],
         //单项侧边栏 当点击前端才显示侧边栏
@@ -200,6 +206,66 @@ export default defineConfig({
                         {
                             text: '为什么选用B+树作为索引',
                             link: 'database/mysql/indexWhyB+.md'
+                        }
+                    ]
+                }
+            ],
+            //go
+            'otherContent/go/index':[
+                {
+                    text: 'Go基础',
+                    //是否可以折叠
+                    collapsible:true,
+                    collapsed:false,
+                    items: [
+                        {
+                            text: 'go发展',
+                            link: 'otherContent/go/start.md'
+                        }
+                    ]
+                }
+            ],
+            //netty
+            'mq/netty':[
+                {
+                    items: [
+                        {
+                            text: 'Java NIO:Buffer、Channel和Selector',
+                            link: 'mq/netty/NIO'
+                        },
+                        {
+                            text: '心跳和假死检测',
+                            link: 'mq/netty/心跳和连接假死  '
+                        }
+                    ]
+                }
+            ],
+            //RPC
+            'otherContent/rpc/index':[
+                {
+                    text: 'RPC',
+                    //是否可以折叠
+                    collapsible:true,
+                    collapsed:false,
+                    items: [
+                        {
+                            text: '什么是RPC？原理是什么？',
+                            link: 'otherContent/rpc/01'
+                        },
+                        {
+                            text: '如何自己实现一个RPC框架',
+                            link: 'otherContent/rpc/02'
+                        }
+                    ]
+                }
+            ],
+            'otherContent/distributed/index':[
+                {
+
+                    items: [
+                        {
+                            text: '负载均衡算法',
+                            link: 'otherContent/distributed/loadBalance.md'
                         }
                     ]
                 }
